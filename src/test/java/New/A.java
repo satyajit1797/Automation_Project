@@ -23,6 +23,7 @@ public class A
       act.moveToElement(next).perform();
       act.contextClick().perform();
       Thread.sleep(2000);
+      System.out.println("satyajit");
   }
   
 }
